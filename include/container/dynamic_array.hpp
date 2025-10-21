@@ -18,7 +18,6 @@
 #include <type_traits>
 #include <utility>
 
-#include "../internal/scope_guard.hpp"
 #include "../internal/type_traits.hpp"
 #include "../macro/assert.hpp"
 
