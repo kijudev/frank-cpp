@@ -3,7 +3,7 @@
 #include <cassert>
 #include <iostream>
 
-#ifdef FRANK_DISABLE_ASSERT
+#ifdef NDEBUG
 #define FRANK_ASSERT_MSG
 #else
 #define FRANK_ASSERT_MSG(cond, msg)                                            \

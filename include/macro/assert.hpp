@@ -2,7 +2,7 @@
 
 #include <cassert>
 
-#ifdef FRANK_DISABLE_ASSERT
+#ifdef NDEBUG
 #define FRANK_ASSERT
 #else
 #define FRANK_ASSERT(cond) assert(cond)
